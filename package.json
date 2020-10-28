@@ -1,7 +1,7 @@
 {
   "name": "@memomissed/complib1",
   "description": "straight React component library WITHOUT Webpack, Tailwind, or TypeScript",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "repository": "memomissed/complib1",
   "license": "MIT",
   "main": "dist/index.js",
