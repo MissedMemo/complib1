@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
  
 const ToggleButton = () => {
   const [isToggled, setIsToggled] = useState(false)
@@ -8,7 +8,7 @@ const ToggleButton = () => {
   }
 
   return <div className='toggle'>
-    <button onClick={toggle} >{ isToggled ? 'Stop': 'Start' }</button>
+    <button onClick={toggle} >{ isToggled ? 'On': 'Off' }</button>
   </div>
 }
 
